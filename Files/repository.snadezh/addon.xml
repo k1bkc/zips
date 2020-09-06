@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.snadezh" name="[B][COLOR orange]Snadezh[/COLOR][/B]" version="2.0" provider-name="KavaN">
+	<extension point="xbmc.addon.repository" name="Snadezh Repo">
+		<info compressed="true">http://kavan.site88.net/Files/addons.xml</info>
+		<checksum>http://kavan.site88.net/Files/addons.xml.md5</checksum>
+		<datadir zip="true">http://kavan.site88.net/Files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+     <summary lang="en">Kurdish and Persian  Live TV Channels + Movies And Series...</summary>
+    <description lang="en">
+	(+31)657676760
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aczg" version="3.0.86" name="A Confluence ZEITGEIST" provider-name="axbmcuser">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="service.library.data.provider" version="0.2.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.22">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">"A Confluence ZEITGEIST" is a clean and modern rework of the Confluence skin.</summary>
+		<description lang="en">"A Confluence ZEITGEIST" is a clean and modern rework of the Confluence skin. It mainly features an icon-based main menu without the need for scrolling and two all new wall views, which replace the old thumbnail view. Countless other small graphics updates and optimizations are included.</description>
+		<platform>all</platform>
+		<license/>
+		<forum>http://forum.kodi.tv/showthread.php?tid=242892</forum>
+		<website/>
+		<email/>
+		<source/>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.PersianMovies"
+       name="[COLOR gold]Persian Movies[/COLOR]"
+       version="20.2.2018"
+       provider-name="KavaN">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Persian Movies and Series</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
