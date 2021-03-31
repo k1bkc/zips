@@ -30,48 +30,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.UltraStream" name="[COLOR gold]_UltraStream_[/COLOR]" version="1.0.1" provider-name="KavaN">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.livestreamer" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Live TV Channels</summary>
-    <description lang="en_gb">Live TV Channels</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <website>http://snadezh.blogspot.nl/</website>
-    <email>kavansna@gmail.com</email>
-  </extension>
-</addon>
-
-<addon id="plugin.video.PersianMovies"
-       name="[COLOR gold]Persian Movies[/COLOR]"
-       version="20.2.2018"
-       provider-name="KavaN">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests"/>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Persian Movies and Series</summary>
-    <language>en</language>
-    <description lang="en"></description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
 <addon
   id="plugin.video.SportsDevil"
   version="2017.10.01"
