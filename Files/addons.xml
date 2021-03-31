@@ -106,11 +106,16 @@ For updates check the readme.
   </extension>
 </addon>
 
-<addon id="repository.snadezh" name="[B][COLOR orange]Snadezh[/COLOR][/B]" version="2.0" provider-name="KavaN">
-	<extension point="xbmc.addon.repository" name="Snadezh Repo">
-		<info compressed="true">http://kavan.site88.net/Files/addons.xml</info>
-		<checksum>http://kavan.site88.net/Files/addons.xml.md5</checksum>
-		<datadir zip="true">http://kavan.site88.net/Files/</datadir>
+<addon id="repository.snadezh" name="[B][COLOR orange]Snadezh[/COLOR][/B]" version="2.3" provider-name="KavaN">
+	<extension point="xbmc.addon.repository" name="Snadezh Repository">
+	 <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir> 
+        <info compressed="false">https://github.com/k1bkc/snasdezh/raw/master/addons.xml</info>
+        <checksum>https://github.com/k1bkc/snasdezh/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/k1bkc/snasdezh/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
      <summary lang="en">Kurdish and Persian  Live TV Channels + Movies And Series...</summary>
